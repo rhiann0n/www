@@ -1,0 +1,38 @@
+.letras span{
+    padding: 15px 25px;
+    border: 1px solid darkcyan;
+    border-radius: 5px;
+    margin-right:5px;
+}
+div{
+    margin: 50px auto;
+}
+.boton{
+    padding: 10px 15px;
+    margin: 5px;
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.centrado{
+    text-align: center;
+}
+.nuevaP,.salir{
+    visibility: hidden;
+    padding: 15px 20px;
+    color: ghostwhite;
+    background-color: darkcyan;
+
+}
+.nuevaP:hover,.salir:hover{
+    background-color: ghostwhite;
+    color: darkcyan;
+    border: 1px solid darkcyan;
+}
+*{
+    font-family: "Calibri Light";
+}
